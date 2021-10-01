@@ -70,5 +70,10 @@ namespace First
                 ball.Draw(g);
             }
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Text = "Hello! Welcome to Statistics!";
+        }
     }
 }
